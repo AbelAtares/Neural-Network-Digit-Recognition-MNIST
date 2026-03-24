@@ -17,7 +17,7 @@ This project explores the MNIST dataset to recognize handwritten digits (0–9) 
 ## 3. Model Implementation
 - The neural network architecture consists of:
   - Input Layer: 784 neurons (one per pixel)
-  - Hidden Layer: 10 neurons with ReLU activation function
+  - Hidden Layer: 15 neurons with ReLU activation function
   - Output Layer: 10 neurons with Softmax activation function
 - In this section, we also define:
   - Forward Propagation: to calculate predictions
@@ -25,7 +25,7 @@ This project explores the MNIST dataset to recognize handwritten digits (0–9) 
 ## 4. Model Training
 - The network is trained using Gradient Descent.
 - During training, weights and biases are iteratively updated to minimize the loss.
-- After 600 iterations, the model reaches an accuracy of approximately 88%, demonstrating effective learning from the data.
+- After 600 iterations, the model reaches an accuracy of approximately 89%, demonstrating effective learning from the data.
 ## 5. Model Testing
 - The Test Prediction function is used to:
   - Select individual images from the dataset
@@ -33,5 +33,5 @@ This project explores the MNIST dataset to recognize handwritten digits (0–9) 
   - Visualize the image alongside its prediction
   - This provides a clear understanding of how well the model performs on unseen examples.
 ## Conclusion
-- Even with a relatively small neural network, we achieve very good accuracy (~88%) on MNIST.
+- Even with a relatively small neural network, we achieve very good accuracy (~89%) on MNIST.
 - This project demonstrates the power of gradient descent, forward/backward propagation and neural networks from scratch, making it a solid educational example for understanding the fundamentals of deep learning.
