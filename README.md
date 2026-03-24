@@ -1,1 +1,1 @@
-# mnist-neural-network-from-scratch
+# Neural-Network-Digit-Recognition-MNIST
