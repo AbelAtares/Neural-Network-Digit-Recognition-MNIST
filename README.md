@@ -1,6 +1,6 @@
 # Handwritten Digit Recognition with a Neural Network
 
-This project explores the MNIST dataset to recognize handwritten digits (0–9) using a small neural network implemented from scratch in NumPy. The goal is to demonstrate how a simple network can learn from raw data and make accurate predictions.
+This project explores the MNIST dataset to recognize handwritten digits (0 to 9) using a small neural network implemented from scratch in NumPy. The goal is to demonstrate how a simple network can learn from raw data and make accurate predictions.
 
 ---
 
